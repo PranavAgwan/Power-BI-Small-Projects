@@ -40,8 +40,8 @@ The **Healthcare Dataset** from Kaggle contains records of patients, test result
 ![Healthcare Dashboard Page 2](screenshots/healthcare_page2.png)
 
 **Explanation:**  
-This section explores **financial patterns** such as billing amount and its growth across years, and insurance coverage.  
-KPIs display the financial stability and growth, while bar and donut charts show patient insurance type and billing amount by medical conditions.
+- This section explores **financial patterns** such as billing amount and its growth across years, and insurance coverage.
+- KPIs display the financial stability and growth, while bar and donut charts show patient insurance type and billing amount by medical conditions.
 
 ---
 
