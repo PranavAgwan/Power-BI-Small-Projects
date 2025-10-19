@@ -5,23 +5,34 @@ Each project demonstrates data visualization, storytelling, and analytical insig
 
 ---
 
-
----
-
 ## 🏥 Healthcare Analysis Dashboard
 
-### 📘 Dataset Description
-The **Healthcare Dataset** from Kaggle contains records of patients, test results, and healthcare metrics such as medical costs, satisfaction rates, and disease trends.  
-The goal is to provide insights into **patient demographics, hospital performance, test trends, and cost distribution** across multiple years.
+### 📘 Dataset — `healthcare_dataset.csv`
+The **Healthcare Dataset** from Kaggle contains records of patients, test results, and healthcare metrics such as medical costs, satisfaction rates, and disease trends. Each column provides specific information about the patient, their admission, and the healthcare services provided. This dataset is suitable for many healthcare analysis and modeling tasks (e.g., patient demographics, admission patterns, cost analysis, basic outcome tracking).
 
+**Key Columns:**
+- Name  
+- Age  
+- Gender  
+- Blood Type  
+- Medical Condition  
+- Date of Admission  
+- Doctor  
+- Hospital  
+- Insurance Provider  
+- Billing Amount  
+- Admission Type  
+- Discharge Date  
+- Medication  
+- Test Results  
 ---
 
-### 📊 Page 1 — Overview and Key Metrics
+### 📊 Page 1 — Patient Demographics and Admission Overview
 ![Healthcare Dashboard Page 1](screenshots/healthcare_page1.png)
 
 **Explanation:**  
-This page provides an overall summary of the healthcare system’s performance — including total patients, total costs, average satisfaction, and test result trends.  
-Interactive filters allow users to analyze data across years, hospitals, and test types.
+- This page provides an overall summary of the healthcare system’s performance — including total patients, total costs, average length of stay, and test result trends.  
+- Interactive filters allow users to analyze data across different admission type, age group and medical condition.
 
 ---
 
@@ -29,34 +40,48 @@ Interactive filters allow users to analyze data across years, hospitals, and tes
 ![Healthcare Dashboard Page 2](screenshots/healthcare_page2.png)
 
 **Explanation:**  
-This section explores **financial patterns** such as hospital revenue, cost recovery, and insurance coverage analysis.  
-KPIs display the financial stability and growth, while bar and donut charts show patient insurance type and claim status distributions.
+This section explores **financial patterns** such as billing amount and its growth across years, and insurance coverage.  
+KPIs display the financial stability and growth, while bar and donut charts show patient insurance type and billing amount by medical conditions.
 
 ---
 
-### 📈 Page 3 — Yearly Test Result Trends
+### 📈 Page 3 — Clinical Outcomes and Medications
 ![Healthcare Dashboard Page 3](screenshots/healthcare_page3.png)
 
 **Explanation:**  
-A line chart tracks test results across years, separated by different test categories.  
-This helps visualize performance improvements, identify anomalies, and highlight significant changes in healthcare outcomes.
+- This section explore the **clinical outcomes** such as the percentage of test results for different age groups based on medical conditions and age group.
+- The line chart tracks test results across years, separated by different test categories. This helps visualize performance improvements, identify anomalies, and highlight significant changes in healthcare outcomes.
 
 ---
 
 ## 🏦 Banking Performance & Customer Analysis Dashboard
 
-### 📘 Dataset Description
-The **Comprehensive Banking Database** from Kaggle contains customer demographic information, product usage, financial transactions, and regional performance indicators.  
-The dashboard is designed to help understand **customer segmentation, regional banking performance, and product-based profitability**.
+### 📘 Dataset — `Comprehensive_Banking_Database.csv`
+This dataset focuses on **loan decisions** (Approved, Rejected, Closed) based on customers’ **account balances**, **debit/credit transactions**, and **account types**.  
+It helps analyze financial behavior and overall banking performance.
 
+**Key Columns:**
+- Customer ID  
+- Account Balance  
+- Total Credit Transaction  
+- Total Debit Transaction  
+- Loan Amount  
+- Loan Status  
+- Account Type  
+- Card Type  
+- Branch ID  
+- Gender / Age  
 ---
 
 ### 📊 Page 1 — Customer and Financial Performance Overview
 ![Banking Dashboard Page 1](screenshots/banking_page1.png)
 
 **Explanation:**  
-This page presents a holistic view of banking operations — including customer segmentation, deposits, loans, and product adoption metrics.  
-Interactive visuals highlight customer loyalty, transaction value distribution, and branch performance to guide data-driven decision-making.
+- Displays overall banking KPIs such as total customers, loan amount disbursed, and loan rejection rate.  
+- Highlights financial performance metrics — total credit/debit transactions, average balance, and interest rate.  
+- Visualizes loan distribution by account type and loan status.  
+- Shows demographic breakdowns (gender-wise customer counts).  
+- Includes slicers for filtering by card type, account type, loan status, and branch.  
 
 ---
 
@@ -78,8 +103,13 @@ These Power BI projects demonstrate:
 
 ---
 
-### 💡 Author
-**Pranav Agwan**  
-Data Science & Analytics Enthusiast  
-📧 [Your Email or LinkedIn Here]
+
+## 👨‍💻 Author
+
+👤 Name : **Pranav Agwan** 
+
+📧 Mail : agwanpranav123@gmail.com 
+
+🔗 LinkedIn Profile : www.linkedin.com/in/pranav-agwan-84b80b211  
+
 
